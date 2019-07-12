@@ -1,0 +1,12 @@
+.item {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 0;
+  transform: scale(1);
+  transform-origin: center center;
+  pointer-events: none;
+  border-radius: 50%;
+  background-image: url("../images/mickey.png");
+  background-size: cover;
+}

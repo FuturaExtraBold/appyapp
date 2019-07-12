@@ -1,0 +1,16 @@
+.center {
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  &--h {
+    width: 100px;
+    height: 2px;
+  }
+  &--v {
+    width: 2px;
+    height: 100px;
+  }
+}
